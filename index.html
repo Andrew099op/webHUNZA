@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<script>
+window.addEventListener('mouseover', initLandbot, { once: true });
+window.addEventListener('touchstart', initLandbot, { once: true });
+var myLandbot;
+function initLandbot() {
+  if (!myLandbot) {
+    var s = document.createElement('script');s.type = 'text/javascript';s.async = true;
+    s.addEventListener('load', function() {
+      var myLandbot = new Landbot.Livechat({
+        configUrl: 'https://storage.googleapis.com/landbot.online/v3/H-1585993-Y2F94RMLL7Y0RHO5/index.json',
+      });
+    });
+    s.src = 'https://cdn.landbot.io/landbot-3/landbot-3.0.0.js';
+    var x = document.getElementsByTagName('script')[0];
+    x.parentNode.insertBefore(s, x);
+  }
+}
+</script>
+
+
+
+
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Title -->
+    <title>HUNZA - WEB</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/core-img/favicon.ico">
+
+    <!-- Core Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!-- ##### Preloader ##### -->
+    <div id="preloader">
+        <i class="circle-preloader"></i>
+    </div>
+
+    <!-- ##### Header Area Start ##### -->
+    <header class="header-area">
+
+        <!-- Top Header Area -->
+        <div class="top-header">
+            <div class="container h-100">
+                <div class="row h-100">
+                    <div class="col-12 h-100">
+                        <div class="header-content h-100 d-flex align-items-center justify-content-between">
+                            <div class="academy-logo">
+                                <a href="index.html"><img src="img/core-img/logo.png" alt=""></a>
+                            </div>
+                            <div class="login-content">
+                                <a href="index.html">ACTUALIZAR 🔄 </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Navbar Area -->
+        <div class="academy-main-menu">
+            <div class="classy-nav-container breakpoint-off">
+                <div class="container">
+                    <!-- Menu -->
+                    <nav class="classy-navbar justify-content-between" id="academyNav">
+
+                        <!-- Navbar Toggler -->
+                        <div class="classy-navbar-toggler">
+                            <span class="navbarToggler"><span></span><span></span><span></span></span>
+                        </div>
+
+                        <!-- Menu -->
+                        <div class="classy-menu">
+
+                            <!-- close btn -->
+                            <div class="classycloseIcon">
+                                <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                            </div>
+
+                            <!-- Nav Start -->
+                            <div class="classynav">
+                                <ul>
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="aplicacion.html">Aplicación</a>
+                                    <li><a href="about-us.html">About Us</a></li>
+                                    <li><a href="course.html">Catálogo</a></li>
+                                    <li><a href="#">Redes sociales</a>
+                                        <ul class="dropdown">
+                                            <li><a href="https://instagram.com/bonsuapp?igshid=ZDdkNTZiNTM= ">Instagram</a></li>
+                                            <li><a href="https://developers.facebook.com/docs/sharing/opengraph">Facebook</a></li>
+                                            <li><a href="mailto:bonsuapp.col@gmail.com">E-mail</a></li>
+                                            <li><a href="https://wa.me/qr/VVCQ24CKS4RVJ1">Whatsap</a></li>
+                                            
+                                        </ul>
+                                    </li>
+                                    <li><a href="contact.html">Contáctenos</a></li>
+                                </ul>
+                            </div>
+                            <!-- Nav End -->
+                        </div>
+
+                        <!-- Calling Info -->
+                        <div class="calling-info">
+                            <div class="call-center">
+                                <a href="tel:+57 312 5044 772"><i class="icon-telephone-2"></i> <span>(+57) 312 5044 772</span></a>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ##### Header Area End ##### -->
+
+    <!-- ##### Hero Area Start ##### -->
+    <section class="hero-area">
+        <div class="hero-slides owl-carousel">
+
+            <!-- Single Hero Slide -->
+            <div class="single-hero-slide bg-img" style="background-image: url(img/bg-img/bg-1.jpg);">
+                <div class="container h-100">
+                    <div class="row h-100 align-items-center">
+                        <div class="col-12">
+                            <div class="hero-slides-content">
+                                <h4 data-animation="fadeInUp" data-delay="100ms">Cuidando la naturaleza en cada detalle</h4>
+                                <h2 data-animation="fadeInUp" data-delay="400ms">Bienvenido a nuestra página web</h2>
+                                <a href="about-us.html" class="btn academy-btn" data-animation="fadeInUp" data-delay="700ms">Más información</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Single Hero Slide -->
+            <div class="single-hero-slide bg-img" style="background-image: url(img/bg-img/bg-2.jpg);">
+                <div class="container h-100">
+                    <div class="row h-100 align-items-center">
+                        <div class="col-12">
+                            <div class="hero-slides-content">
+                                <h4 data-animation="fadeInUp" data-delay="100ms">Cuidando la naturaleza en cada detalle</h4>
+                                <h2 data-animation="fadeInUp" data-delay="400ms">Bienvenido a nuestra página web</h2>
+                                <a href="about-us.html" class="btn academy-btn" data-animation="fadeInUp" data-delay="700ms">Más información</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ##### Hero Area End ##### -->
+
+    <!-- ##### Top Feature Area Start ##### -->
+    <div class="top-features-area wow fadeInUp" data-wow-delay="300ms">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="features-content">
+                        <div class="row no-gutters">
+                            <!-- Single Top Features -->
+                            <div class="col-12 col-md-4">
+                                <div class="single-top-features d-flex align-items-center justify-content-center">
+                                    <i class="fa fa-cog fa-spin fa-3x fa-fw"></i>
+<span class="sr-only">Loading...</span>
+                                    <h5>Asistencia online</h5>
+                                </div>
+                            </div>
+                            <!-- Single Top Features -->
+                            <div class="col-12 col-md-4">
+                                <div class="single-top-features d-flex align-items-center justify-content-center">
+                                    <i class="fa fa-refresh fa-spin fa-3x fa-fw"></i>
+<span class="sr-only">Loading...</span>
+                                    <h5>Productos de calidad</h5>
+                                </div>
+                            </div>
+                            <!-- Single Top Features -->
+                            <div class="col-12 col-md-4">
+                                <div class="single-top-features d-flex align-items-center justify-content-center">
+                                    <i class="fa fa-spinner fa-pulse fa-3x fa-fw"></i>
+<span class="sr-only">Loading...</span>
+                                    <h5>Asesorías</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ##### Top Feature Area End ##### -->
+
+    <!-- ##### Course Area Start ##### -->
+    <div class="academy-courses-area section-padding-100-0">
+        <div class="container">
+            <div class="row">
+                <!-- Single Course Area -->
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="single-course-area d-flex align-items-center mb-100 wow fadeInUp" data-wow-delay="300ms">
+                        <div class="course-icon">
+                            <i class="icon-id-card"></i>
+                        </div>
+                        <div class="course-content">
+                            <h4>ATENCIÓN AL CLIENTE</h4>
+                            <p>Buscamos responder todas las dudas de nuestros clientes de una manera efectiva e inmediata.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Course Area -->
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="single-course-area d-flex align-items-center mb-100 wow fadeInUp" data-wow-delay="400ms">
+                        <div class="course-icon">
+                            <i class="fa fa-users" aria-hidden="true"></i>
+                        </div>
+                        <div class="course-content">
+                            <h4>SUGERENCIAS</h4>
+                            <p>Brindamos consejos y apoyo a los clientes con dudas en el mantenimiento de sus bonsais y técnicas de poda.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Course Area -->
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="single-course-area d-flex align-items-center mb-100 wow fadeInUp" data-wow-delay="500ms">
+                        <div class="course-icon">
+                            <i class="fa fa-check-square-o"></i>
+                        </div>
+                        <div class="course-content">
+                            <h4>RESPUESTAS</h4>
+                            <p>Ofrecemos un enfoque único en ayudar a quienes lo necesitan con el cuidado de sus productos, intentando resolver de una manera general las inquietudes.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Course Area -->
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="single-course-area d-flex align-items-center mb-100 wow fadeInUp" data-wow-delay="600ms">
+                        <div class="course-icon">
+                            <i class="fa fa-scissors"></i>
+                        </div>
+                        <div class="course-content">
+                            <h4>PRODUCTOS</h4>
+                            <p>Nos centramos en la venta de calidad para nuestra comunidad,esperando en un futuro poder expandirnos a más sectores.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Course Area -->
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="single-course-area d-flex align-items-center mb-100 wow fadeInUp" data-wow-delay="700ms">
+                        <div class="course-icon">
+                            <i class="fa fa-envira"></i>
+                        </div>
+                        <div class="course-content">
+                            <h4>UTENSILIOS</h4>
+                            <p>Queremos brindar las herramientas necesarias que generen satisfacción en el cliente a la hora de manipular su producto a su gusto.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Course Area -->
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="single-course-area d-flex align-items-center mb-100 wow fadeInUp" data-wow-delay="800ms">
+                        <div class="course-icon">
+                            <i class="fa fa-tree"></i>
+                        </div>
+                        <div class="course-content">
+                            <h4>ESPECIES</h4>
+                            <p>Dentro de nuestro catálogo, facilitamos la posibilidad de adquirir nuestras plantas originadas en Bogotá D.C al precio justo para el sector urbano y rural.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ##### Course Area End ##### -->
+
+    <!-- ##### Testimonials Area Start ##### -->
+    <div class="testimonials-area section-padding-100 bg-img bg-overlay" style="background-image: url(img/bg-img/bg-2.jpg);">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-heading text-center mx-auto white wow fadeInUp" data-wow-delay="300ms">
+                        <span>About us</span>
+                        <h3>Business values:</h3>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <!-- Single Testimonials Area -->
+                <div class="col-12 col-md-6">
+                    <div class="single-testimonial-area mb-100 d-flex wow fadeInUp" data-wow-delay="400ms">
+                        <div class="testimonial-thumb">
+                            <img src="img/bg-img/t1.jpg" alt="">
+                        </div>
+                        <div class="testimonial-content">
+                            <h5>Respeto</h5>
+                            <p>Valoramos el medio ambiente y a nuestros clientes, por lo tanto, a través de nuestras acciones de desarrollo ecológico, mejoraremos su bienestar en el futuro.</p>
+                            <h6><span>Andrés Ramos,</span> Bonsu</h6>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Testimonials Area -->
+                <div class="col-12 col-md-6">
+                    <div class="single-testimonial-area mb-100 d-flex wow fadeInUp" data-wow-delay="500ms">
+                        <div class="testimonial-thumb">
+                            <img src="img/bg-img/t2.jpg" alt="">
+                        </div>
+                        <div class="testimonial-content">
+                            <h5>Tolerancia</h5>
+                            <p>Reconocemos la diversidad de las condiciones de nuestros productos y clientes, generando un mejor ambiente de trabajo y un servicio único a la sociedad.</p>
+                            <h6><span>Juan Manuel Alvarez,</span> Bonsu</h6>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Testimonials Area -->
+                <div class="col-12 col-md-6">
+                    <div class="single-testimonial-area mb-100 d-flex wow fadeInUp" data-wow-delay="600ms">
+                        <div class="testimonial-thumb">
+                            <img src="img/bg-img/t3.jpg" alt="">
+                        </div>
+                        <div class="testimonial-content">
+                            <h5>Fe </h5>                            
+                            <p>Desarrollamos planes en ecología para mejorar el bienestar de nuestros productos con el objetivo de generar resultados efectivos.</p>
+                            <h6><span>Andres Ramos,</span> Bonsu</h6>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Testimonials Area -->
+                <div class="col-12 col-md-6">
+                    <div class="single-testimonial-area mb-100 d-flex wow fadeInUp" data-wow-delay="700ms">
+                        <div class="testimonial-thumb">
+                            <img src="img/bg-img/t4.jpg" alt="">
+                        </div>
+                        <div class="testimonial-content">
+                            <h5>Responsabilidad</h5>
+                            <p> Nuestra empresa cumplirá con todas las leyes y reglamentos pertinentes en su industria ya que al estar enfocados en la naturaleza, buscamos ser claros con nuestros clientes y empleados.
+ </p>
+                            <h6><span>Juan Manuel Alvarez,</span> Bonsu</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="load-more-btn text-center wow fadeInUp" data-wow-delay="800ms">
+                        <a href="about-us.html" class="btn academy-btn">Ver más</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ##### Testimonials Area End ##### -->
+
+    <!-- ##### Top Popular Courses Area Start ##### -->
+    <div class="top-popular-courses-area section-padding-100-70">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-heading text-center mx-auto wow fadeInUp" data-wow-delay="300ms">
+                        <span>Productos </span>
+                        <h3>Catálogo</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+               
+                <!-- Single Top Popular Course -->
+                <div class="col-12 col-lg-6">
+                    <div class="single-top-popular-course d-flex align-items-center flex-wrap mb-30 wow fadeInUp" data-wow-delay="400ms">
+                        <div class="popular-course-content">
+                            <h5> Árbol Arrayan</h5>
+                            <span>Andrés Ramos   |  2023</span>
+                            <div class="course-ratings">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                            </div>
+                            <p>Se encuentra en regiones de clima templado y subtropical, sus hojas de verde oscuro reflejan fortaleza y encanto. </p>
+                            <a href="course.html" class="btn academy-btn btn-sm">Ver más</a>
+                        </div>
+                        <div class="popular-course-thumb bg-img" style="background-image: url(img/bg-img/pc-1.jpg);"></div>
+                    </div>
+                </div>
+                
+                <!-- Single Top Popular Course -->
+                <div class="col-12 col-lg-6">
+                    <div class="single-top-popular-course d-flex align-items-center flex-wrap mb-30 wow fadeInUp" data-wow-delay="500ms">
+                        <div class="popular-course-content">
+                            <h5> Árbol Roble</h5>
+                            <span>Juan Manuel Álvarez  | 2023 </span>
+                            <div class="course-ratings">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                            </div>
+                            <p>Posee un tronco fuerte y firme de gran tamaño, incluso, es símbolo de fortaleza y resistencia en la naturaleza.</p>
+                            <a href="course.html" class="btn academy-btn btn-sm">Ver más</a>
+                        </div>
+                        <div class="popular-course-thumb bg-img" style="background-image: url(img/bg-img/pc-2.jpg);"></div>
+                    </div>
+                </div>
+                
+                <!-- Single Top Popular Course -->
+                <div class="col-12 col-lg-6">
+                    <div class="single-top-popular-course d-flex align-items-center flex-wrap mb-30 wow fadeInUp" data-wow-delay="600ms">
+                        <div class="popular-course-content">
+                            <h5> Árbol Cedro</h5>
+                            <span>Andrés Ramos   |  2023</span>
+                            <div class="course-ratings">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                            </div>
+                            <p>El cedro es un árbol conocido por su belleza y longevidad, es símbolo de fortaleza y resistencia en muchas culturas.</p>
+                            <a href="course.html"  class="btn academy-btn btn-sm">Ver más</a>
+                        </div>
+                        <div class="popular-course-thumb bg-img" style="background-image: url(img/bg-img/pc-3.jpg);"></div>
+                    </div>
+                </div>
+                
+                <!-- Single Top Popular Course -->
+                <div class="col-12 col-lg-6">
+                    <div class="single-top-popular-course d-flex align-items-center flex-wrap mb-30 wow fadeInUp" data-wow-delay="700ms">
+                        <div class="popular-course-content">
+                            <h5>Macetas </h5>
+                            <span>Juan Manuel Álvarez  | 2023 </span>
+                            <div class="course-ratings">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                            </div>
+                            <p>Te ofrecemos las mejores macetas para tu árbol bonsái, lo puedes encontar en nuestra aplicación.</p>
+                            <a href="course.html"  class="btn academy-btn btn-sm">Ver más</a>
+                        </div>
+                        <div class="popular-course-thumb bg-img" style="background-image: url(img/bg-img/pc-4.jpg);"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ##### Top Popular Courses Area End ##### -->
+
+    <!-- ##### Partner Area Start ##### -->
+    <div class="partner-area section-padding-0-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="partners-logo d-flex align-items-center justify-content-between flex-wrap">
+                        <a href="#"><img src="img/clients-img/partner-.png" alt=""></a>
+                        <a href="#"><img src="img/core-img/logo2.png" alt=""></a>
+                        <a href="#"><img src="img/clients-img/partner-2.png" alt=""></a>
+                        <a href="#"><img src="img/clients-img/partner-1.png" alt=""></a>
+                        <a href="#"><img src="img/clients-img/partner-4.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ##### Partner Area End ##### -->
+
+    <!-- ##### CTA Area Start ##### -->
+    <div class="call-to-action-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="cta-content d-flex align-items-center justify-content-between flex-wrap">
+                        <h3>Conoce nuestra aplicación para adquirir tu producto </h3>
+                        <a href="aplicacion.html" class="btn academy-btn">App movil</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ##### CTA Area End ##### -->
+
+    <!-- ##### Footer Area Start ##### -->
+    <footer class="footer-area">
+        <div class="main-footer-area section-padding-100-0">
+            <div class="container">
+                <div class="row">
+                    <!-- Footer Widget Area -->
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="footer-widget mb-100">
+                            <div class="widget-title">
+                                <a href="#"><img src="img/core-img/logo2.png" alt=""></a>
+                            </div>
+                            <p>Haz buscado mejorar tu estilo de vida? Por qué en Bonsu hacemos arte en miniatura.
+
+                                
+Nuestros bonsáis te ofrecen las mejores experiencias en cualquier espacio ya sea en tu oficina u hogar.</p>
+                            <div class="footer-social-info">
+                                <a href="https://developers.facebook.com/docs/sharing/opengraph"><i class="fa fa-facebook"></i></a>
+                                <a href="https://instagram.com/bonsu_col?utm_source=qr&igshid=OGU0MmVlOWVjOQ=="><i class="fa fa-instagram"></i></a>
+                                <a href="mailto:bonsuapp.col@gmail.com"><i class="fa fa-envelope"></i></a>
+                                <a href="https://wa.me/qr/VVCQ24CKS4RVJ1"><i class="fa fa-whatsapp"></i></a>
+                                <a href="#"><i class="fa fa-musi"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Footer Widget Area -->
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="footer-widget mb-100">
+                            <div class="widget-title">
+                                <h6>Usefull Links</h6>
+                            </div>
+                            <nav>
+                                <ul class="useful-links">
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="contact.html">Contactenos </a></li>
+                                    <li><a href="#">About us</a></li>
+                                    <li><a href="#">Catálogo</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <!-- Footer Widget Area -->
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="footer-widget mb-100">
+                            <div class="widget-title">
+                                <h6>Gallery</h6>
+                            </div>
+                            <div class="gallery-list d-flex justify-content-between flex-wrap">
+                                <a href="img/bg-img/gallery1.jpg" class="gallery-img" title="Gallery Image 1"><img src="img/bg-img/gallery1.jpg" alt=""></a>
+                                <a href="img/bg-img/gallery2.jpg" class="gallery-img" title="Gallery Image 2"><img src="img/bg-img/gallery2.jpg" alt=""></a>
+                                <a href="img/bg-img/gallery3.jpg" class="gallery-img" title="Gallery Image 3"><img src="img/bg-img/gallery3.jpg" alt=""></a>
+                                <a href="img/bg-img/gallery4.jpg" class="gallery-img" title="Gallery Image 4"><img src="img/bg-img/gallery4.jpg" alt=""></a>
+                                <a href="img/bg-img/gallery5.jpg" class="gallery-img" title="Gallery Image 5"><img src="img/bg-img/gallery5.jpg" alt=""></a>
+                                <a href="img/bg-img/gallery6.jpg" class="gallery-img" title="Gallery Image 6"><img src="img/bg-img/gallery6.jpg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Footer Widget Area -->
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="footer-widget mb-100">
+                            <div class="widget-title">
+                                <h6>Contact</h6>
+                            </div>
+                            <div class="single-contact d-flex mb-30">
+                                <i class="icon-placeholder"></i>
+                                <p>Cl 167 #56-25, Suba, Bogotá</p>
+                            </div>
+                            <div class="single-contact d-flex mb-30">
+                                <i class="icon-telephone-1"></i>
+                                <p>Principal: +57 324 4566345 <br>Secundario: +57 312 5044772</p>
+                            </div>
+                            <div class="single-contact d-flex">
+                                <i class="icon-contract"></i>
+                                <p>bonsuapp.col@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-footer-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Andrés Ramos y Juan Manuel Alvarez<i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank"> </a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ##### Footer Area Start ##### -->
+
+    <!-- ##### All Javascript Script ##### -->
+    <!-- jQuery-2.2.4 js -->
+    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="js/bootstrap/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <!-- All Plugins js -->
+    <script src="js/plugins/plugins.js"></script>
+    <!-- Active js -->
+    <script src="js/active.js"></script>
+</body>
+
+</html>
